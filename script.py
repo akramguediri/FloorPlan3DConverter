@@ -117,7 +117,7 @@ def save_fbx(obj_name):
 
 # Main script
 clear_scene()
-svg_file_path = "/Users/aguediri/Downloads/RgdM3.svg"  # Update this path
+svg_file_path = "RgdM3.svg"  # Update this path
 import_svg(svg_file_path)
 mesh_objects = convert_curves_to_mesh()
 scale_object_group((30, 30, 30))
